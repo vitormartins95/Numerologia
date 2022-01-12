@@ -284,19 +284,27 @@ aside a{
 footer {
     margin-top: 100px;
     padding: 10px;
-    color:var(--cor1) ;
+    color:#dfc3f587;
     background-color: #1c0130 ;
     text-align: center;
     font-size: 13px;
 
 }
 footer  a{
-    color: var(--cor1);
+    color:#dfc3f587;
     text-decoration: none;
     font-weight: bold;
 }
 footer a:hover {
     color: var(--cor2);
+}
+footer p.seguro {
+    font-size: 11px;
+    color:#dfc3f587;
+}
+footer p.seguro::after {
+    content: '\00A0\2705';
+    color: rgba(0, 128, 0, 0.337);
 }
 
 
