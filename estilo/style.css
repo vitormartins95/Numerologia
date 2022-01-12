@@ -176,10 +176,10 @@ div > h3.borda{
 }
 
 div.imagem {
-    background-image: url('../imagem/numerologia-03.jpg');
+    background-image: url('../imagem/universo.jpg');
     
     background-size: cover;
-    background-position: center center;
+    background-position: right center;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-left: -40px;
@@ -193,11 +193,11 @@ div.imagem {
 }
 
 div.fundo {
-    background-color: rgba(0, 0, 0, 0.282);
+    background-color: rgba(0, 0, 0, 0.309);
     display: inline-block;
     padding:35px;
     margin-left: -30px;
-    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.398);
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.453);
     
 }
  a {
