@@ -4,6 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@keyframes bounce {
+    0%{
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }  
+}
+
 :root {
     --fonte1: 'Inter', sans-serif;
     --fonte2: 'Lobster', cursive;
@@ -115,6 +124,7 @@ main p#botao {
 }
 
 
+
 main p#botao >a {
     color: white;
     background-color: rgb(33, 179, 70);
@@ -128,6 +138,8 @@ main p#botao >a {
     border-radius: 20px 3px 20px 3px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-shadow: inset 0px 0px 13px rgba(0, 0, 0, 0.44);
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
     
    
 }
