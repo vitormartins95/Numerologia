@@ -92,6 +92,7 @@ header >h1 {
 header> h2 {
     font-family: var(--fonte2);
     font-size: 5vw;
+    font-variant: small-caps;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.309);
     padding-left: 10px;
     padding-right: 10px;
