@@ -23,10 +23,10 @@
 }
 
 @keyframes go-back {
-    50% {
-        transform: translateX(10px);
+    from {
+        transform: translateX(5px);
     }
-    50% {
+    to {
         transform: translateX(10px);
     }
 }
@@ -274,6 +274,11 @@ aside h3 {
     font-size: 1.2em;
     color: white;
     
+}
+aside  strong {
+    color:darkred;
+    font-size: 1.3em;
+
 }
 aside a{
     display: block;
