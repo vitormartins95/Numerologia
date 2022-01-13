@@ -82,8 +82,9 @@ header >h1 {
     padding-left: 5px;
     padding-right: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.693);
-    font-variant: small-caps;
+    font-variant:small-caps;
     text-align: center;
+    
 
    
     
@@ -92,7 +93,6 @@ header >h1 {
 header> h2 {
     font-family: var(--fonte2);
     font-size: 5vw;
-    font-variant: small-caps;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.309);
     padding-left: 10px;
     padding-right: 10px;
