@@ -1,2 +1,2 @@
 # Numerologia
- sitte de numerologia
+ site de numerologia
