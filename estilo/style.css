@@ -207,7 +207,7 @@ div> h3 {
 }
 h3.depoimentos {
     text-align: center;
-    margin-bottom: 20px
+    margin-bottom: 30px
 }
 div > p {
     padding: 10px;
@@ -278,8 +278,10 @@ div.feed {
 }
  img#box {
      width: 50%;
-    margin-bottom: 15px;
+     margin-bottom: 20px;
      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.337);
+     padding-left: -10px;
+     padding-right: -10px;
  }
  a {
     color:#350759;
